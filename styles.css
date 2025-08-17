@@ -1,0 +1,71 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default browser margin */
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Demonstrates padding */
+    border-bottom: 4px solid #388E3C; /* Demonstrates border */
+  }
+  
+  /* Booking Section */
+  .booking-container {
+    background: white;
+    max-width: 500px;
+    margin: 30px auto; /* Center the form using margin */
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Form Labels */
+  .booking-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Input Fields */
+  .booking-container input {
+    width: 100%; /* Take full width */
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box; /* Box model demonstration */
+  }
+  
+  /* Button Styling */
+  .booking-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .booking-container button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
